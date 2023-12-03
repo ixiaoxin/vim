@@ -22,3 +22,7 @@ xnoremap # :<C-u>call <SID>VSetSearch('?')<CR>/<C-R>=@/<CR><CR>
 
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
+
+set undodir=~/tmp/vimundo//,.
+set backupdir=~/tmp/vimbackup//,.
+set directory=~/tmp/vimswap//,.
